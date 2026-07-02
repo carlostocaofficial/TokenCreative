@@ -3209,6 +3209,22 @@ body {
   padding: 0 0.75em;
   text-decoration: none;
   text-transform: uppercase;
+  vertical-align: middle;
+}
+
+#header > a > img {
+  display: block;
+}
+
+#header > .logo {
+  position: absolute;
+  height: 100%;
+  left: 0;
+  padding: 0;
+}
+
+#header > .logo > a > img {
+  height: 100%;
 }
 
 #header > a[href="#menu"] {
