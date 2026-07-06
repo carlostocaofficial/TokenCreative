@@ -3503,20 +3503,20 @@ body {
   justify-content: center;
   background-image:
     -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-image:
     -webkit-linear-gradient(
       to top,
       rgba(48, 54, 57, 0.2),
       rgba(48, 54, 57, 0.2)
     ),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-image:
     -ms-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-image:
     linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
@@ -4130,20 +4130,20 @@ body.is-preload #banner .inner .actions {
   color: #ffffff;
   background-image:
     -moz-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-image:
     -webkit-linear-gradient(
       to top,
       rgba(48, 54, 57, 0.2),
       rgba(48, 54, 57, 0.2)
     ),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-image:
     -ms-linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-image:
     linear-gradient(to top, rgba(48, 54, 57, 0.2), rgba(48, 54, 57, 0.2)),
-    url("../../images/4.png");
+    url("../../images/4.jpg");
   background-attachment: fixed;
   background-position: center;
   background-size: cover;
