@@ -128,39 +128,32 @@
     <section id="three" class="wrapper style1">
       <div class="inner">
         <div class="spotlights">
-          <form method="post" action="#">
+          <form method="post" action="https://api.web3forms.com/submit">
+            <input type="hidden" name="access_key" value="cb6c2aaa-a5ec-4b1a-b14f-a0165478a979">
             <div class="row gtr-uniform">
               <div class="col-6 col-12-xsmall">
-                <label for="demo-name">Name</label>
-                <input type="text" name="demo-name" id="demo-name" value="" />
+                <label for="Name">Name</label>
+                <input type="text" name="Name" id="demo-name" value="" />
               </div>
               <div class="col-6 col-12-xsmall">
-                <label for="demo-email">Email</label>
+                <label for="Email">Email</label>
                 <input
                   type="email"
-                  name="demo-email"
+                  name="E-mail"
                   id="demo-email"
                   value=""
+                  required
                 />
               </div>
               <div class="col-12">
-                <label for="demo-optional">Instagram (optional) </label>
-                <input type="text" name="demo-optional" id="demo-optional"></select>
+                <label for="Instagram">Instagram (optional) </label>
+                <input type="text" name="Instagram" id="demo-optional"></select>
               </div>
-
-              <div class="col-6 col-12-small">
-                <input
-                  type="checkbox"
-                  id="demo-human"
-                  name="demo-human"
-                  checked
-                />
-                <label for="demo-human">Not a robot</label>
-              </div>
-              <div class="col-12">
-                <label for="demo-message">Tell us about your brand</label>
+          
+                              <div class="col-12">
+                <label for="Message">Tell us about your brand</label>
                 <textarea
-                  name="demo-message"
+                  name="Message"
                   id="demo-message"
                   rows="6"
                 ></textarea>
