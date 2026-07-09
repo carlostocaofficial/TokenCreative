@@ -2449,8 +2449,13 @@ input[type="radio"]:focus + label:before {
   width: 100%;
 }
 
-.image.fit img {
+.image.fit img,
+.image.fit iframe {
   width: 100%;
+}
+
+.image.fit iframe {
+  aspect-ratio: 9 / 16;
 }
 
 .image.main {
@@ -4232,4 +4237,11 @@ body.is-preload #banner .inner .actions {
   #main > header p {
     font-size: 1em;
   }
+}
+
+iframe {
+  display: "block";
+  width: "100%";
+  height: "auto";
+  aspect-ratio: "350 / 622";
 }
